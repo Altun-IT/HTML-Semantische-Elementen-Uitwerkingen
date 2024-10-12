@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
+
+/* Globale stijlen voor de hele pagina */
+body {
+    font-family: 'Montserrat', sans-serif; /* Stelt het lettertype in voor de hele pagina, in dit geval Montserrat uit Google Fonts */
+    color: #333; /* Stelt de standaard tekstkleur in op een donkergrijze tint (#333) */
+    background-color: #F4F4F4; /* Stelt de achtergrondkleur van de gehele pagina in op lichtgrijs (#F4F4F4) */
+    margin: 0; /* Verwijdert de standaard marges die browsers normaal gesproken toevoegen */
+    padding: 0; /* Verwijdert de standaard opvulling die browsers normaal gesproken toevoegen */
+}
+
+/* Stijlen voor het header-element & footer-element */
+header, footer {
+    background-color: #83ace9; /* Geeft de header en footer een lichtblauwe achtergrondkleur */
+    color: white; /* Stelt de tekstkleur in op wit voor zowel header als footer */
+    text-align: center; /* Centreert de tekst horizontaal in het midden */
+    padding: 20px 0; /* Geeft een verticale opvulling van 20px boven en onder de inhoud */
+}
+
+/* Stijlen voor de navigatiebalk */
+nav {
+    background-color: #c9daf6; /* Stelt een lichtere blauwe achtergrondkleur in voor de navigatiebalk */
+    display: flex; /* Gebruikt flexbox om de items in de navigatiebalk in een flexibele lay-out te plaatsen */
+    justify-content: space-between; /* Plaatst de items in de navigatiebalk aan de linker- en rechterkant met ruimte ertussen */
+    align-items: center; /* Zorgt ervoor dat de items verticaal gecentreerd zijn binnen de navigatiebalk */
+    padding: 10px 20px; /* Geeft de navigatiebalk opvulling van 10px boven/onder en 20px links/rechts */
+}
+
+nav ul {
+    list-style-type: none; /* Verwijdert de standaard opsommingstekens van de lijstitems */
+    padding: 0; /* Verwijdert de standaard opvulling van de lijst */
+}
+
+nav ul li {
+    display: inline; /* Zorgt ervoor dat de lijstitems horizontaal naast elkaar worden weergegeven */
+    margin: 0 15px; /* Voegt horizontale marge toe tussen de items */
+}
+
+nav ul li a {
+    color: white; /* Stelt de tekstkleur in op wit voor de navigatielinks */
+    text-decoration: none; /* Verwijdert de standaard onderstreping van links */
+    font-weight: bold; /* Maakt de tekst van de links vetgedrukt */
+}
+
+/* Main content */
+main {
+    background-color: white; /* Geeft het hoofdcontentgebied een witte achtergrondkleur */
+    padding: 20px; /* Voegt een opvulling van 20px rondom de inhoud toe */
+    margin: 20px auto; /* Maakt ruimte aan de bovenkant van het element en centreert het horizontaal */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Voegt een subtiele schaduw toe onder het contentgebied */
+    border-radius: 8px; /* Maakt de hoeken van het contentgebied licht afgerond */
+}
+
+/* Flexbox layout voor section en aside */
+.content {
+    display: flex; /* Zorgt voor een flexibele lay-out voor het hoofdcontentgebied */
+    justify-content: space-between; /* Plaatst de secties en aside op maximale afstand van elkaar */
+    gap: 20px; /* Voegt ruimte van 20px toe tussen de secties */
+}
+
+section {
+    flex: 3; /* Geeft de sectie een relatieve breedte van 3 delen in vergelijking met aside */
+    margin-bottom: 30px; /* Voegt ruimte toe onder de sectie */
+    padding: 20px; /* Voegt een opvulling van 20px toe rondom de sectie */
+    border-radius: 8px; /* Maakt de hoeken van de sectie licht afgerond */
+    background-color: #ECF0F1; /* Geeft de sectie een zeer lichtgrijze achtergrondkleur */
+}
+
+aside {
+    flex: 1; /* Geeft de aside een relatieve breedte van 1 deel in vergelijking met de sectie */
+    margin-bottom: 30px; /* Voegt ruimte toe onder aside */
+    padding: 20px; /* Voegt een opvulling van 20px toe rondom aside */
+    border-radius: 8px; /* Maakt de hoeken van aside licht afgerond */
+    background-color: #ECF0F1; /* Geeft aside dezelfde zeer lichtgrijze achtergrondkleur */
+}
+
+article {
+    margin-bottom: 30px; /* Voegt een marge van 30px toe onder elk artikel */
+    padding: 20px; /* Voegt een opvulling van 20px toe rondom het artikel */
+    border-radius: 8px; /* Maakt de hoeken van het artikel licht afgerond */
+    background-color: #ECF0F1; /* Geeft het artikel een zeer lichtgrijze achtergrondkleur */
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif; /* Gebruik het Montserrat lettertype voor koppen */
+    font-weight: bold; /* Maakt de tekst van de koppen vetgedrukt */
+}
+
+h2 {
+    color: #2C3E50; /* Stelt de tekstkleur in op donkerblauw voor h2-koppen */
+}
+
+footer {
+    font-size: 14px; /* Stelt de tekstgrootte in op 14px voor de tekst in de footer */
+}
+
